@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form>
+
+
+    </form>
+    
+
+    <script>
+
+        const student = {
+            name : ajay,
+            age: 50,
+            isActive : false ,
+            coursetaken : ['html',"css", "javascript" ],
+            calculatedays : function calculateDaysince(startdatestring){
+                const startDate = new Date(startDatestring);
+
+                const now = new Date ();
+
+                const timeDiffrenceMs = now.gettime() - startDate.getTime();
+
+
+                const millisecondsInday = 1000* 60 * 60 *24
+
+                const daysElapsed = Math.floor(timeDiffrenceMs / millisecondsInday);
+
+                return daysElapsed;
+                
+            }
+
+             
+            
+
+        }
+    </script>
+
+</body>
+</html>
