@@ -1,11 +1,11 @@
 
-function leo(){
+function sagili_sathish(){
     console.log("vannakam'nga nahh");
     
 }
 
-function parthi(callback){
+function saadha_sathish(callback){
     callback()
 }
 
-parthi(leo)
+saadha_sathish(sagili_sathish)

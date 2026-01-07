@@ -1,9 +1,9 @@
 
-let a = "25 puffs";
+let a = "settu sathish";
 console.log(a)
 
-var b = "nee dhana leo";
+var b = "seruppu sathish";
 console.log(b)
 
-const c = "Na dhn leo"
+const c = "su*** sathish"
 console.log(c)

@@ -1,6 +1,6 @@
 
 function callMe() {
-    console.log("OK vaaa");
+    console.log("Ayya");
 }
 
 setTimeout(callMe, 2000);
